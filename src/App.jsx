@@ -8,7 +8,7 @@ const App = () => {
   return (
     <main>
       <section className="container">
-        <h4>{people.length} birthdays todays</h4>
+        <h4>{people.length} birthdays today</h4>
         <List people={people} />
         <button
           type="button"
